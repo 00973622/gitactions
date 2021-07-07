@@ -2,7 +2,8 @@ name: Actions Workflow
 
 on:
   push:
-  issues: [opened,closed]
+  issues: 
+    types: [opened,closed]
 
 jobs:
   run-github-actions:

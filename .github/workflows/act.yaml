@@ -5,7 +5,7 @@ on:
   issues: 
     types: [opened,closed]
   schedule:
-    - cron: '45,30,15 14,13 * * *'
+    - cron: '48 14 * * *'
 
 jobs:
   run-github-actions:

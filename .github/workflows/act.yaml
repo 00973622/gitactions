@@ -2,9 +2,9 @@ name: Actions Workflow
 
 on: 
   #push:
-  repository_dispatch: 
+  repository_dispatch:
     types: [build]
-    
+
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest

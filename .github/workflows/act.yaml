@@ -1,10 +1,10 @@
 name: Actions Workflow
 
 on: 
-  push:
+  #push:
   repository_dispatch: 
     types: [build]
-
+    
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest

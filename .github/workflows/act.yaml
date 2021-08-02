@@ -1,9 +1,14 @@
 name: Actions Workflow
 
+<<<<<<< HEAD
 on:
   push:
+=======
+on: 
+>>>>>>> 1d1863dcae7fd92641189af722086366f6ac8a03
   repository_dispatch:
     types: [build]
+  # push:
 
 
 jobs:
